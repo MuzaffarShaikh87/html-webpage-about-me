@@ -6,6 +6,13 @@ header{
     background-color: salmon;
 }
 
+header>h3{
+    background-color: springgreen;
+}
+
+header>h4{
+    background-color: chartreuse;
+}
 /* main will not display background colour yellow because the main is not in the code format */
 
 main{
@@ -16,6 +23,10 @@ footer{
     background-color: lawngreen;
 }
 
-footer p{
+/*footer p{
     background-color: magenta;
+}*/
+
+footer>p{
+    background-color: red;
 }
