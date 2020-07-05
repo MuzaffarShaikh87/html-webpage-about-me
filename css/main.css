@@ -1,3 +1,21 @@
 body{
+    background-color: skyblue;
+}
+
+header{
     background-color: salmon;
+}
+
+/* main will not display background colour yellow because the main is not in the code format */
+
+main{
+    background-color: yellow;
+}
+
+footer{
+    background-color: lawngreen;
+}
+
+footer p{
+    background-color: magenta;
 }
