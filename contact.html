@@ -25,20 +25,34 @@
 
         <form action="contact.html" method="POST">
 
-            <input id= "Coworker" name="relation" value="Coworker" type="radio">
-            <label for= "Coworker">Coworker</label>
-            <input id= "Former employee" name= "relation" value="Former Employee" type="radio">
-            <label for= "Former employee">Former Worker</label>
-            <input id= "Other" name= "relation" value="Other" type= "radio" checked>
-            <label for= "Other">Other</label>
+            <p>Please select all that apply: </p>
+
+            <input id="Programming" name="Programming" value="Programming" type="checkbox">
+            <label for="Prgramming">I like Programming</label>
+            <input id= "Reading" name="Reading" value="Reading" type="checkbox">
+            <label for="Reading">I like Reading</label>
+            <input id="Practiting"  name="Practicing" value="Practicing" type="checkbox">
+            <label for="Practicing">I like Practicing</label> 
 
             <br />
-            
-            <label for="message">Please leave us a message: </label>
-            <textarea id="message"></textarea>
+
+            <label for="Province">Please select your province: </label>
+            <select name="Province" id="Province">
+                <option value="AB">Alberta</option>
+                <option value="BC">British Columbia</option>
+                <option value="MB">Manitoba</option>
+                <option value="NB">New Brunswick</option>
+                <option value="NL">Newfoundland and Labrador</option>
+                <option value="NS">Nova Scotia</option>
+                <option value="ON">Ontario</option>
+                <option value="PE">Prince Edward Island</option>
+                <option value="QC">Quebec</option>
+                <option value="SK">Saskatchewan</option>
+                <option value="NT">Northwest Territories</option>
+                <option value="NU">Nunavut</option>
+                <option value="YT">Yukon</option>
+            </select>
     
-
-            <br />
         </form>
         
         <footer>
