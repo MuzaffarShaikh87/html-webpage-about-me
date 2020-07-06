@@ -1,7 +1,13 @@
 body{
-    background-color: skyblue;
+    background-color: rgb(200, 225, 240);
 }
 
+header,main,footer{
+    background-color: (140, 175, 200);
+}
+
+
+/*
 .web1{
     background-color: khaki;
 }
