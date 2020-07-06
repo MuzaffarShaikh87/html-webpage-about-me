@@ -13,10 +13,37 @@ body{
 .set2{
     background-color:royalblue;
 }
-/* main will not display background colour yellow because the main is not in the code format */
 
-main{
-    background-color: yellow;
+.p1{
+    font-size: 18px;
+    color: solid black;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: underline;
+}
+
+.p2{
+    font-size: 18px;
+    color: solid red;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: underline;
+}
+
+.photo1{
+    border: 3px solid black;
+}
+
+
+.background1{
+    background-image: url("../img/winding-road-1556177_640.jpg");
+    background-size: cover
+    width = fit;
+}
+#road{
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 35%;
 }
 
 footer{
