@@ -2,10 +2,16 @@ body{
     background-color: skyblue;
 }
 
-header{
-    background-color: salmon;
+.web1{
+    background-color: khaki;
 }
 
+.set1{
+    background-color: royalblue;
+}
+
+.set2{
+    background-color:royalblue;
 }
 /* main will not display background colour yellow because the main is not in the code format */
 
@@ -17,9 +23,21 @@ footer{
     background-color: lawngreen;
 }
 
-body>footer>p{
-    background-color: yellow;
+.pic>p{
+    background-color:yellow;
 }
+
+.pic>div>p{
+    background-color: orange;
+}
+
+.image>p{
+    background-color: orange;
+}
+
+/*body>footer>p{
+    background-color: yellow;
+}*/
 
 /*footer p{
     background-color: magenta;
